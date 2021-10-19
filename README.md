@@ -16,7 +16,7 @@ There are two sets of config files in this repo: one for local development and t
 Both use the same dockerfile to specify the dev environment, but since each executes on a different platform (the first via VSCode and Docker installed on your machine and the second on Gitpod's cloud servers) their settings are specified through seperate configuration files. 
 
 ### Local Development
-All config files for local development can be found in the [./.devcontainer](./.devcontainer) directory. 
+All config files for local development can be found in the [.devcontainer](./.devcontainer) directory. 
 There are two files: [devcontainer.json](./.devcontainer/devcontainer.json) and [Dockerfile](./.devcontainer/Dockerfile).
 The devcontainer.json file contains information like the name of the dev container, its context, the dockerfile its based on, settings, VSCode extensions to install in the container, commands to run once the container has been created, etc. 
 There are many settings you can change here to customize your environment.
