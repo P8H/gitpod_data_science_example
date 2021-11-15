@@ -25,5 +25,5 @@ See the documentation [here](https://code.visualstudio.com/docs/remote/devcontai
 ### Gitpod  Development
 We've setup the Gitpod environment to use the same Dockerfile as is used in the local dev environment to make things as consistent as possible. 
 Gitpod, however, uses the [.gitpod.yml](./.gitpod.yml) file rather than the devcontainer.json file to configure settings, extenstions, commands, etc. 
-Visit the docs [here](https://www.gitpod.io/docs/configure) for a comprehesive list of all confuration options!
+Visit the docs [here](https://www.gitpod.io/docs/configure) for a comprehesive list of all configuration options!
 Also, checkout our internal gitpod docs/tips/tricks repo [here](https://github.com/ANRGUSC/gitpod) for tips on customization.
